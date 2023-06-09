@@ -15,6 +15,7 @@ namespace PHPOpenSourceSaver\JWTAuth\Claims;
 use PHPOpenSourceSaver\JWTAuth\Exceptions\InvalidClaimException;
 use PHPOpenSourceSaver\JWTAuth\Exceptions\TokenExpiredException;
 use PHPOpenSourceSaver\JWTAuth\Exceptions\TokenInvalidException;
+use Illuminate\Support\Facades\Log;
 
 class IssuedAt extends Claim
 {
@@ -56,7 +57,11 @@ class IssuedAt extends Claim
      */
     public function validateRefresh($refreshTTL)
     {
-        if ($this->isPast($this->getValue() + $refreshTTL * 60)) {
+        $isPast = $this->isPast($this->getValue() + $refreshTTL * 60);
+
+        Log::info('validateRefresh@IssuedAt', ['value' => $this->getValue(), 'value_ttl' => $this->getValue()+$refreshTTL*60, 'is_past' => $isPast]);
+
+        if ($isPast) {
             throw new TokenExpiredException('Token has expired and can no longer be refreshed');
         }
     }
