@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Console;
+namespace UncleTioma\JWTAuth\Console;
 
 use Closure;
 use Illuminate\Support\Str;

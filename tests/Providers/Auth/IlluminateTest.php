@@ -10,13 +10,13 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Test\Providers\Auth;
+namespace UncleTioma\JWTAuth\Test\Providers\Auth;
 
 use Illuminate\Contracts\Auth\Guard;
 use Mockery;
 use Mockery\MockInterface;
-use PHPOpenSourceSaver\JWTAuth\Providers\Auth\Illuminate as Auth;
-use PHPOpenSourceSaver\JWTAuth\Test\AbstractTestCase;
+use UncleTioma\JWTAuth\Providers\Auth\Illuminate as Auth;
+use UncleTioma\JWTAuth\Test\AbstractTestCase;
 
 class IlluminateTest extends AbstractTestCase
 {

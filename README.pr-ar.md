@@ -16,7 +16,7 @@
 
 1) استخدم ايعاز `composer remove tymon/jwt-auth`
    > **ملاحظة** قد تظهر بعض الاخطاء يمكنك تجاهلها.
-2) قم باستبدال `Tymon\JWTAuth` ب `PHPOpenSourceSaver\JWTAuth`.
+2) قم باستبدال `Tymon\JWTAuth` ب `UncleTioma\JWTAuth`.
    > **نصيحة**: يمكن استخدام الاختصارات بمحرر النصوص لديك مثلا.  <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
 3) نفذ `composer require php-open-source-saver/jwt-auth`
 

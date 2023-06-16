@@ -10,9 +10,9 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth;
+namespace UncleTioma\JWTAuth;
 
-use PHPOpenSourceSaver\JWTAuth\Validators\TokenValidator;
+use UncleTioma\JWTAuth\Validators\TokenValidator;
 
 class Token
 {

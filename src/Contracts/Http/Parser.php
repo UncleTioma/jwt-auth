@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Contracts\Http;
+namespace UncleTioma\JWTAuth\Contracts\Http;
 
 use Illuminate\Http\Request;
 

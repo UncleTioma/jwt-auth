@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth;
+namespace UncleTioma\JWTAuth;
 
 use BadMethodCallException;
 use Illuminate\Auth\Events\Attempting;
@@ -25,9 +25,9 @@ use Illuminate\Contracts\Auth\UserProvider;
 use Illuminate\Contracts\Events\Dispatcher;
 use Illuminate\Http\Request;
 use Illuminate\Support\Traits\Macroable;
-use PHPOpenSourceSaver\JWTAuth\Contracts\JWTSubject;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\JWTException;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\UserNotDefinedException;
+use UncleTioma\JWTAuth\Contracts\JWTSubject;
+use UncleTioma\JWTAuth\Exceptions\JWTException;
+use UncleTioma\JWTAuth\Exceptions\UserNotDefinedException;
 
 /**
  * @mixin JWT
@@ -452,7 +452,7 @@ class JWTGuard implements Guard
      *
      * @return JWT
      *
-     * @throws \PHPOpenSourceSaver\JWTAuth\Exceptions\JWTException
+     * @throws \UncleTioma\JWTAuth\Exceptions\JWTException
      */
     protected function requireToken()
     {

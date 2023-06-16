@@ -5,7 +5,7 @@
 
 ### قم بتحديث مودل اليوزر
 
-اولا قم بتضمين `PHPOpenSourceSaver\JWTAuth\Contracts\JWTSubject` الى مودل اليوزر,
+اولا قم بتضمين `UncleTioma\JWTAuth\Contracts\JWTSubject` الى مودل اليوزر,
 بعدها قم بانشاء الدوال التالية `getJWTIdentifier()` و `getJWTCustomClaims()`.
 
 المثال التالي سيوضح لك ما تحتاجه بالضبط , مع تغيير حسب متطلباتك او شكل المودل لديك
@@ -17,7 +17,7 @@
 
 namespace App;
 
-use PHPOpenSourceSaver\JWTAuth\Contracts\JWTSubject;
+use UncleTioma\JWTAuth\Contracts\JWTSubject;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 

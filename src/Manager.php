@@ -10,13 +10,13 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth;
+namespace UncleTioma\JWTAuth;
 
-use PHPOpenSourceSaver\JWTAuth\Contracts\Providers\JWT as JWTContract;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\JWTException;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\TokenBlacklistedException;
-use PHPOpenSourceSaver\JWTAuth\Support\CustomClaims;
-use PHPOpenSourceSaver\JWTAuth\Support\RefreshFlow;
+use UncleTioma\JWTAuth\Contracts\Providers\JWT as JWTContract;
+use UncleTioma\JWTAuth\Exceptions\JWTException;
+use UncleTioma\JWTAuth\Exceptions\TokenBlacklistedException;
+use UncleTioma\JWTAuth\Support\CustomClaims;
+use UncleTioma\JWTAuth\Support\RefreshFlow;
 
 class Manager
 {
@@ -94,7 +94,7 @@ class Manager
      *
      * @return Payload
      *
-     * @throws \PHPOpenSourceSaver\JWTAuth\Exceptions\TokenBlacklistedException
+     * @throws \UncleTioma\JWTAuth\Exceptions\TokenBlacklistedException
      */
     public function decode(Token $token, $checkBlacklist = true)
     {

@@ -10,9 +10,9 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Test\Stubs;
+namespace UncleTioma\JWTAuth\Test\Stubs;
 
-use PHPOpenSourceSaver\JWTAuth\Providers\JWT\Provider;
+use UncleTioma\JWTAuth\Providers\JWT\Provider;
 
 class JWTProviderStub extends Provider
 {

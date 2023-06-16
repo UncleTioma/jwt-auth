@@ -10,13 +10,13 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Test\Middleware;
+namespace UncleTioma\JWTAuth\Test\Middleware;
 
 use Illuminate\Http\Request;
 use Mockery;
 use Mockery\MockInterface;
-use PHPOpenSourceSaver\JWTAuth\JWTAuth;
-use PHPOpenSourceSaver\JWTAuth\Test\AbstractTestCase;
+use UncleTioma\JWTAuth\JWTAuth;
+use UncleTioma\JWTAuth\Test\AbstractTestCase;
 
 abstract class AbstractMiddlewareTest extends AbstractTestCase
 {

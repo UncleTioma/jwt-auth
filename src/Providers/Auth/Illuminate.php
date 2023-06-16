@@ -10,10 +10,10 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Providers\Auth;
+namespace UncleTioma\JWTAuth\Providers\Auth;
 
 use Illuminate\Contracts\Auth\Guard as GuardContract;
-use PHPOpenSourceSaver\JWTAuth\Contracts\Providers\Auth;
+use UncleTioma\JWTAuth\Contracts\Providers\Auth;
 
 class Illuminate implements Auth
 {

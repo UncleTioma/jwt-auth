@@ -10,10 +10,10 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Test\Stubs;
+namespace UncleTioma\JWTAuth\Test\Stubs;
 
 use Illuminate\Contracts\Auth\Authenticatable;
-use PHPOpenSourceSaver\JWTAuth\Contracts\JWTSubject;
+use UncleTioma\JWTAuth\Contracts\JWTSubject;
 
 class LaravelUserStub extends UserStub implements Authenticatable, JWTSubject
 {

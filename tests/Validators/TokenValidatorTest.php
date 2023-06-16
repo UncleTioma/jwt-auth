@@ -10,11 +10,11 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Test\Validators;
+namespace UncleTioma\JWTAuth\Test\Validators;
 
-use PHPOpenSourceSaver\JWTAuth\Exceptions\TokenInvalidException;
-use PHPOpenSourceSaver\JWTAuth\Test\AbstractTestCase;
-use PHPOpenSourceSaver\JWTAuth\Validators\TokenValidator;
+use UncleTioma\JWTAuth\Exceptions\TokenInvalidException;
+use UncleTioma\JWTAuth\Test\AbstractTestCase;
+use UncleTioma\JWTAuth\Validators\TokenValidator;
 
 class TokenValidatorTest extends AbstractTestCase
 {
@@ -38,7 +38,7 @@ class TokenValidatorTest extends AbstractTestCase
 
     /**
      * @test
-     * @dataProvider \PHPOpenSourceSaver\JWTAuth\Test\Validators\TokenValidatorTest::dataProviderMalformedTokens
+     * @dataProvider \UncleTioma\JWTAuth\Test\Validators\TokenValidatorTest::dataProviderMalformedTokens
      *
      * @param string $token
      */
@@ -49,7 +49,7 @@ class TokenValidatorTest extends AbstractTestCase
 
     /**
      * @test
-     * @dataProvider \PHPOpenSourceSaver\JWTAuth\Test\Validators\TokenValidatorTest::dataProviderMalformedTokens
+     * @dataProvider \UncleTioma\JWTAuth\Test\Validators\TokenValidatorTest::dataProviderMalformedTokens
      */
     public function itShouldThrowAnExceptionWhenProvidingAMalformedToken($token)
     {
@@ -61,7 +61,7 @@ class TokenValidatorTest extends AbstractTestCase
 
     /**
      * @test
-     * @dataProvider \PHPOpenSourceSaver\JWTAuth\Test\Validators\TokenValidatorTest::dataProviderTokensWithWrongSegmentsNumber
+     * @dataProvider \UncleTioma\JWTAuth\Test\Validators\TokenValidatorTest::dataProviderTokensWithWrongSegmentsNumber
      */
     public function itShouldReturnFalseWhenProvidingATokenWithWrongSegmentsNumber($token)
     {
@@ -70,7 +70,7 @@ class TokenValidatorTest extends AbstractTestCase
 
     /**
      * @test
-     * @dataProvider \PHPOpenSourceSaver\JWTAuth\Test\Validators\TokenValidatorTest::dataProviderTokensWithWrongSegmentsNumber
+     * @dataProvider \UncleTioma\JWTAuth\Test\Validators\TokenValidatorTest::dataProviderTokensWithWrongSegmentsNumber
      */
     public function itShouldThrowAnExceptionWhenProvidingAMalformedTokenWithWrongSegmentsNumber($token)
     {

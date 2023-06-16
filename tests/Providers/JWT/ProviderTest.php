@@ -10,10 +10,10 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Test\Providers\JWT;
+namespace UncleTioma\JWTAuth\Test\Providers\JWT;
 
-use PHPOpenSourceSaver\JWTAuth\Test\AbstractTestCase;
-use PHPOpenSourceSaver\JWTAuth\Test\Stubs\JWTProviderStub;
+use UncleTioma\JWTAuth\Test\AbstractTestCase;
+use UncleTioma\JWTAuth\Test\Stubs\JWTProviderStub;
 
 class ProviderTest extends AbstractTestCase
 {

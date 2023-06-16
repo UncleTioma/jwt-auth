@@ -10,11 +10,11 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Claims;
+namespace UncleTioma\JWTAuth\Claims;
 
-use PHPOpenSourceSaver\JWTAuth\Exceptions\InvalidClaimException;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\TokenExpiredException;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\TokenInvalidException;
+use UncleTioma\JWTAuth\Exceptions\InvalidClaimException;
+use UncleTioma\JWTAuth\Exceptions\TokenExpiredException;
+use UncleTioma\JWTAuth\Exceptions\TokenInvalidException;
 
 class IssuedAt extends Claim
 {

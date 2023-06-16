@@ -10,23 +10,23 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Test\Http;
+namespace UncleTioma\JWTAuth\Test\Http;
 
 use Illuminate\Contracts\Encryption\DecryptException;
 use Illuminate\Http\Request;
 use Illuminate\Routing\Route;
 use Illuminate\Support\Facades\Crypt;
 use Mockery;
-use PHPOpenSourceSaver\JWTAuth\Contracts\Http\Parser as ParserContract;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\TokenInvalidException;
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\AuthHeaders;
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\Cookies;
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\InputSource;
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\LumenRouteParams;
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\Parser;
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\QueryString;
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\RouteParams;
-use PHPOpenSourceSaver\JWTAuth\Test\AbstractTestCase;
+use UncleTioma\JWTAuth\Contracts\Http\Parser as ParserContract;
+use UncleTioma\JWTAuth\Exceptions\TokenInvalidException;
+use UncleTioma\JWTAuth\Http\Parser\AuthHeaders;
+use UncleTioma\JWTAuth\Http\Parser\Cookies;
+use UncleTioma\JWTAuth\Http\Parser\InputSource;
+use UncleTioma\JWTAuth\Http\Parser\LumenRouteParams;
+use UncleTioma\JWTAuth\Http\Parser\Parser;
+use UncleTioma\JWTAuth\Http\Parser\QueryString;
+use UncleTioma\JWTAuth\Http\Parser\RouteParams;
+use UncleTioma\JWTAuth\Test\AbstractTestCase;
 
 class ParserTest extends AbstractTestCase
 {

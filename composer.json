@@ -1,5 +1,5 @@
 {
-    "name": "php-open-source-saver/jwt-auth",
+    "name": "uncletioma/jwt-auth",
     "description": "JSON Web Token Authentication for Laravel and Lumen",
     "keywords": [
         "auth",
@@ -57,12 +57,12 @@
     },
     "autoload": {
         "psr-4": {
-            "PHPOpenSourceSaver\\JWTAuth\\": "src/"
+            "UncleTioma\\JWTAuth\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "PHPOpenSourceSaver\\JWTAuth\\Test\\": "tests/"
+            "UncleTioma\\JWTAuth\\Test\\": "tests/"
         }
     },
     "extra": {
@@ -71,11 +71,11 @@
         },
         "laravel": {
             "aliases": {
-                "JWTAuth": "PHPOpenSourceSaver\\JWTAuth\\Facades\\JWTAuth",
-                "JWTFactory": "PHPOpenSourceSaver\\JWTAuth\\Facades\\JWTFactory"
+                "JWTAuth": "UncleTioma\\JWTAuth\\Facades\\JWTAuth",
+                "JWTFactory": "UncleTioma\\JWTAuth\\Facades\\JWTFactory"
             },
             "providers": [
-                "PHPOpenSourceSaver\\JWTAuth\\Providers\\LaravelServiceProvider"
+                "UncleTioma\\JWTAuth\\Providers\\LaravelServiceProvider"
             ]
         }
     },

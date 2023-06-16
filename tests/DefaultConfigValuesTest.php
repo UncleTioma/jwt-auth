@@ -10,11 +10,11 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Test;
+namespace UncleTioma\JWTAuth\Test;
 
-use PHPOpenSourceSaver\JWTAuth\Providers\Auth\Illuminate as AuthIlluminate;
-use PHPOpenSourceSaver\JWTAuth\Providers\JWT\Lcobucci;
-use PHPOpenSourceSaver\JWTAuth\Providers\Storage\Illuminate as StorageIlluminate;
+use UncleTioma\JWTAuth\Providers\Auth\Illuminate as AuthIlluminate;
+use UncleTioma\JWTAuth\Providers\JWT\Lcobucci;
+use UncleTioma\JWTAuth\Providers\Storage\Illuminate as StorageIlluminate;
 
 class DefaultConfigValuesTest extends AbstractTestCase
 {

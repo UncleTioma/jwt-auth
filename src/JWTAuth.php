@@ -10,11 +10,11 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth;
+namespace UncleTioma\JWTAuth;
 
-use PHPOpenSourceSaver\JWTAuth\Contracts\JWTSubject;
-use PHPOpenSourceSaver\JWTAuth\Contracts\Providers\Auth;
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\Parser;
+use UncleTioma\JWTAuth\Contracts\JWTSubject;
+use UncleTioma\JWTAuth\Contracts\Providers\Auth;
+use UncleTioma\JWTAuth\Http\Parser\Parser;
 
 class JWTAuth extends JWT
 {

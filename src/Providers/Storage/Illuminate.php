@@ -10,11 +10,11 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Providers\Storage;
+namespace UncleTioma\JWTAuth\Providers\Storage;
 
 use BadMethodCallException;
 use Illuminate\Contracts\Cache\Repository as CacheContract;
-use PHPOpenSourceSaver\JWTAuth\Contracts\Providers\Storage;
+use UncleTioma\JWTAuth\Contracts\Providers\Storage;
 use Psr\SimpleCache\CacheInterface as PsrCacheInterface;
 
 class Illuminate implements Storage

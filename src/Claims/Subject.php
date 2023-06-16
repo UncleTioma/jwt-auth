@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Claims;
+namespace UncleTioma\JWTAuth\Claims;
 
 class Subject extends Claim
 {

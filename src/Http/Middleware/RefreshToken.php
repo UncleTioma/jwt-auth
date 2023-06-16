@@ -10,11 +10,11 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Http\Middleware;
+namespace UncleTioma\JWTAuth\Http\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\JWTException;
+use UncleTioma\JWTAuth\Exceptions\JWTException;
 use Symfony\Component\HttpKernel\Exception\UnauthorizedHttpException;
 
 class RefreshToken extends BaseMiddleware

@@ -10,14 +10,14 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth;
+namespace UncleTioma\JWTAuth;
 
-use PHPOpenSourceSaver\JWTAuth\Claims\Claim;
-use PHPOpenSourceSaver\JWTAuth\Claims\Collection;
-use PHPOpenSourceSaver\JWTAuth\Claims\Factory as ClaimFactory;
-use PHPOpenSourceSaver\JWTAuth\Support\CustomClaims;
-use PHPOpenSourceSaver\JWTAuth\Support\RefreshFlow;
-use PHPOpenSourceSaver\JWTAuth\Validators\PayloadValidator;
+use UncleTioma\JWTAuth\Claims\Claim;
+use UncleTioma\JWTAuth\Claims\Collection;
+use UncleTioma\JWTAuth\Claims\Factory as ClaimFactory;
+use UncleTioma\JWTAuth\Support\CustomClaims;
+use UncleTioma\JWTAuth\Support\RefreshFlow;
+use UncleTioma\JWTAuth\Validators\PayloadValidator;
 
 class Factory
 {

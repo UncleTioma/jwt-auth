@@ -10,13 +10,13 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Http\Parser;
+namespace UncleTioma\JWTAuth\Http\Parser;
 
 use Illuminate\Contracts\Encryption\DecryptException;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Crypt;
-use PHPOpenSourceSaver\JWTAuth\Contracts\Http\Parser as ParserContract;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\TokenInvalidException;
+use UncleTioma\JWTAuth\Contracts\Http\Parser as ParserContract;
+use UncleTioma\JWTAuth\Exceptions\TokenInvalidException;
 
 class Cookies implements ParserContract
 {

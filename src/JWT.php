@@ -10,14 +10,14 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth;
+namespace UncleTioma\JWTAuth;
 
 use BadMethodCallException;
 use Illuminate\Http\Request;
-use PHPOpenSourceSaver\JWTAuth\Contracts\JWTSubject;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\JWTException;
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\Parser;
-use PHPOpenSourceSaver\JWTAuth\Support\CustomClaims;
+use UncleTioma\JWTAuth\Contracts\JWTSubject;
+use UncleTioma\JWTAuth\Exceptions\JWTException;
+use UncleTioma\JWTAuth\Http\Parser\Parser;
+use UncleTioma\JWTAuth\Support\CustomClaims;
 
 class JWT
 {

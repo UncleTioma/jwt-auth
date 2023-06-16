@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Support;
+namespace UncleTioma\JWTAuth\Support;
 
 use Carbon\Carbon;
 

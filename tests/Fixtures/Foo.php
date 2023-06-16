@@ -10,9 +10,9 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Test\Fixtures;
+namespace UncleTioma\JWTAuth\Test\Fixtures;
 
-use PHPOpenSourceSaver\JWTAuth\Claims\Claim;
+use UncleTioma\JWTAuth\Claims\Claim;
 
 class Foo extends Claim
 {

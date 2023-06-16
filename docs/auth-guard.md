@@ -52,13 +52,13 @@ Get the currently authenticated user or throw an exception.
 ```php
 try {
     $user = auth()->userOrFail();
-} catch (\PHPOpenSourceSaver\JWTAuth\Exceptions\UserNotDefinedException $e) {
+} catch (\UncleTioma\JWTAuth\Exceptions\UserNotDefinedException $e) {
     // do something
 }
 
 ```
 
-If the user is not set, then a `PHPOpenSourceSaver\JWTAuth\Exceptions\UserNotDefinedException` will be thrown.
+If the user is not set, then a `UncleTioma\JWTAuth\Exceptions\UserNotDefinedException` will be thrown.
 
 ### logout()
 

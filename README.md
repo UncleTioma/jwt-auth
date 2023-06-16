@@ -11,7 +11,7 @@ This uses different namespace, then `tymondesigns/jwt-auth`, but overall, provid
 
 1) Run `composer remove tymon/jwt-auth`
    > **Info** An error will appear because the package is still in use, ignore it.
-2) Replace all the occurrences of `Tymon\JWTAuth` with `PHPOpenSourceSaver\JWTAuth`.
+2) Replace all the occurrences of `Tymon\JWTAuth` with `UncleTioma\JWTAuth`.
    > **Tip**: You can use *Find and Replace* feature of your IDE. Try it with <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd>
 3) Run `composer require php-open-source-saver/jwt-auth`
 

@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Test\Providers\JWT;
+namespace UncleTioma\JWTAuth\Test\Providers\JWT;
 
 use Exception;
 use InvalidArgumentException;
@@ -24,10 +24,10 @@ use Lcobucci\JWT\Token\DataSet;
 use Lcobucci\JWT\Validation\Constraint;
 use Mockery;
 use Mockery\MockInterface;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\JWTException;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\TokenInvalidException;
-use PHPOpenSourceSaver\JWTAuth\Providers\JWT\Lcobucci;
-use PHPOpenSourceSaver\JWTAuth\Test\AbstractTestCase;
+use UncleTioma\JWTAuth\Exceptions\JWTException;
+use UncleTioma\JWTAuth\Exceptions\TokenInvalidException;
+use UncleTioma\JWTAuth\Providers\JWT\Lcobucci;
+use UncleTioma\JWTAuth\Test\AbstractTestCase;
 
 class LcobucciTest extends AbstractTestCase
 {

@@ -10,24 +10,24 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Test;
+namespace UncleTioma\JWTAuth\Test;
 
 use BadMethodCallException;
 use Mockery;
 use Mockery\LegacyMockInterface;
-use PHPOpenSourceSaver\JWTAuth\Claims\Audience;
-use PHPOpenSourceSaver\JWTAuth\Claims\Claim;
-use PHPOpenSourceSaver\JWTAuth\Claims\Collection;
-use PHPOpenSourceSaver\JWTAuth\Claims\Expiration;
-use PHPOpenSourceSaver\JWTAuth\Claims\IssuedAt;
-use PHPOpenSourceSaver\JWTAuth\Claims\Issuer;
-use PHPOpenSourceSaver\JWTAuth\Claims\JwtId;
-use PHPOpenSourceSaver\JWTAuth\Claims\NotBefore;
-use PHPOpenSourceSaver\JWTAuth\Claims\Subject;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\InvalidClaimException;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\PayloadException;
-use PHPOpenSourceSaver\JWTAuth\Payload;
-use PHPOpenSourceSaver\JWTAuth\Validators\PayloadValidator;
+use UncleTioma\JWTAuth\Claims\Audience;
+use UncleTioma\JWTAuth\Claims\Claim;
+use UncleTioma\JWTAuth\Claims\Collection;
+use UncleTioma\JWTAuth\Claims\Expiration;
+use UncleTioma\JWTAuth\Claims\IssuedAt;
+use UncleTioma\JWTAuth\Claims\Issuer;
+use UncleTioma\JWTAuth\Claims\JwtId;
+use UncleTioma\JWTAuth\Claims\NotBefore;
+use UncleTioma\JWTAuth\Claims\Subject;
+use UncleTioma\JWTAuth\Exceptions\InvalidClaimException;
+use UncleTioma\JWTAuth\Exceptions\PayloadException;
+use UncleTioma\JWTAuth\Payload;
+use UncleTioma\JWTAuth\Validators\PayloadValidator;
 
 class PayloadTest extends AbstractTestCase
 {

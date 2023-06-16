@@ -10,10 +10,10 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Http\Parser;
+namespace UncleTioma\JWTAuth\Http\Parser;
 
 use Illuminate\Http\Request;
-use PHPOpenSourceSaver\JWTAuth\Contracts\Http\Parser as ParserContract;
+use UncleTioma\JWTAuth\Contracts\Http\Parser as ParserContract;
 
 class RouteParams implements ParserContract
 {

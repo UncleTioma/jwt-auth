@@ -10,10 +10,10 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Exceptions;
+namespace UncleTioma\JWTAuth\Exceptions;
 
 use Exception;
-use PHPOpenSourceSaver\JWTAuth\Claims\Claim;
+use UncleTioma\JWTAuth\Claims\Claim;
 
 class InvalidClaimException extends JWTException
 {

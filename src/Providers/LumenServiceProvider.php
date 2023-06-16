@@ -10,9 +10,9 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Providers;
+namespace UncleTioma\JWTAuth\Providers;
 
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\LumenRouteParams;
+use UncleTioma\JWTAuth\Http\Parser\LumenRouteParams;
 
 class LumenServiceProvider extends AbstractServiceProvider
 {

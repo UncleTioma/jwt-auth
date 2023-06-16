@@ -10,9 +10,9 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Claims;
+namespace UncleTioma\JWTAuth\Claims;
 
-use PHPOpenSourceSaver\JWTAuth\Exceptions\TokenExpiredException;
+use UncleTioma\JWTAuth\Exceptions\TokenExpiredException;
 
 class Expiration extends Claim
 {

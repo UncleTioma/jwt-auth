@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Providers\JWT;
+namespace UncleTioma\JWTAuth\Providers\JWT;
 
 use DateTimeImmutable;
 use Exception;
@@ -33,9 +33,9 @@ use Lcobucci\JWT\Signer\Rsa\Sha384 as RS384;
 use Lcobucci\JWT\Signer\Rsa\Sha512 as RS512;
 use Lcobucci\JWT\Token\RegisteredClaims;
 use Lcobucci\JWT\Validation\Constraint\SignedWith;
-use PHPOpenSourceSaver\JWTAuth\Contracts\Providers\JWT;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\JWTException;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\TokenInvalidException;
+use UncleTioma\JWTAuth\Contracts\Providers\JWT;
+use UncleTioma\JWTAuth\Exceptions\JWTException;
+use UncleTioma\JWTAuth\Exceptions\TokenInvalidException;
 use ReflectionClass;
 
 class Lcobucci extends Provider implements JWT

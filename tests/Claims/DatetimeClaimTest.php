@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Test\Claims;
+namespace UncleTioma\JWTAuth\Test\Claims;
 
 use Carbon\Carbon;
 use DateInterval;
@@ -19,17 +19,17 @@ use DateTimeImmutable;
 use DateTimeInterface;
 use Mockery;
 use Mockery\LegacyMockInterface;
-use PHPOpenSourceSaver\JWTAuth\Claims\Collection;
-use PHPOpenSourceSaver\JWTAuth\Claims\Expiration;
-use PHPOpenSourceSaver\JWTAuth\Claims\IssuedAt;
-use PHPOpenSourceSaver\JWTAuth\Claims\Issuer;
-use PHPOpenSourceSaver\JWTAuth\Claims\JwtId;
-use PHPOpenSourceSaver\JWTAuth\Claims\NotBefore;
-use PHPOpenSourceSaver\JWTAuth\Claims\Subject;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\InvalidClaimException;
-use PHPOpenSourceSaver\JWTAuth\Payload;
-use PHPOpenSourceSaver\JWTAuth\Test\AbstractTestCase;
-use PHPOpenSourceSaver\JWTAuth\Validators\PayloadValidator;
+use UncleTioma\JWTAuth\Claims\Collection;
+use UncleTioma\JWTAuth\Claims\Expiration;
+use UncleTioma\JWTAuth\Claims\IssuedAt;
+use UncleTioma\JWTAuth\Claims\Issuer;
+use UncleTioma\JWTAuth\Claims\JwtId;
+use UncleTioma\JWTAuth\Claims\NotBefore;
+use UncleTioma\JWTAuth\Claims\Subject;
+use UncleTioma\JWTAuth\Exceptions\InvalidClaimException;
+use UncleTioma\JWTAuth\Payload;
+use UncleTioma\JWTAuth\Test\AbstractTestCase;
+use UncleTioma\JWTAuth\Validators\PayloadValidator;
 
 class DatetimeClaimTest extends AbstractTestCase
 {

@@ -10,17 +10,17 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Test\Providers\JWT;
+namespace UncleTioma\JWTAuth\Test\Providers\JWT;
 
 use Exception;
 use InvalidArgumentException;
 use Mockery;
 use Mockery\MockInterface;
 use Namshi\JOSE\JWS;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\JWTException;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\TokenInvalidException;
-use PHPOpenSourceSaver\JWTAuth\Providers\JWT\Namshi;
-use PHPOpenSourceSaver\JWTAuth\Test\AbstractTestCase;
+use UncleTioma\JWTAuth\Exceptions\JWTException;
+use UncleTioma\JWTAuth\Exceptions\TokenInvalidException;
+use UncleTioma\JWTAuth\Providers\JWT\Namshi;
+use UncleTioma\JWTAuth\Test\AbstractTestCase;
 
 class NamshiTest extends AbstractTestCase
 {

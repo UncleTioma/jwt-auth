@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Http\Parser;
+namespace UncleTioma\JWTAuth\Http\Parser;
 
 use Illuminate\Http\Request;
 
@@ -50,7 +50,7 @@ class Parser
     /**
      * Add a new parser to the chain.
      *
-     * @param array|\PHPOpenSourceSaver\JWTAuth\Contracts\Http\Parser $parsers
+     * @param array|\UncleTioma\JWTAuth\Contracts\Http\Parser $parsers
      *
      * @return $this
      */

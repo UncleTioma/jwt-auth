@@ -10,13 +10,13 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Test\Middleware;
+namespace UncleTioma\JWTAuth\Test\Middleware;
 
 use Mockery;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\TokenInvalidException;
-use PHPOpenSourceSaver\JWTAuth\Http\Middleware\Check;
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\Parser;
-use PHPOpenSourceSaver\JWTAuth\Test\Stubs\UserStub;
+use UncleTioma\JWTAuth\Exceptions\TokenInvalidException;
+use UncleTioma\JWTAuth\Http\Middleware\Check;
+use UncleTioma\JWTAuth\Http\Parser\Parser;
+use UncleTioma\JWTAuth\Test\Stubs\UserStub;
 
 class CheckTest extends AbstractMiddlewareTest
 {

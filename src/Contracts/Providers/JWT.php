@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Contracts\Providers;
+namespace UncleTioma\JWTAuth\Contracts\Providers;
 
 interface JWT
 {

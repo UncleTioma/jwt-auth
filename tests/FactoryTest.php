@@ -10,23 +10,23 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Test;
+namespace UncleTioma\JWTAuth\Test;
 
 use Mockery;
 use Mockery\LegacyMockInterface;
-use PHPOpenSourceSaver\JWTAuth\Claims\Collection;
-use PHPOpenSourceSaver\JWTAuth\Claims\Custom;
-use PHPOpenSourceSaver\JWTAuth\Claims\Expiration;
-use PHPOpenSourceSaver\JWTAuth\Claims\Factory as ClaimFactory;
-use PHPOpenSourceSaver\JWTAuth\Claims\IssuedAt;
-use PHPOpenSourceSaver\JWTAuth\Claims\Issuer;
-use PHPOpenSourceSaver\JWTAuth\Claims\JwtId;
-use PHPOpenSourceSaver\JWTAuth\Claims\NotBefore;
-use PHPOpenSourceSaver\JWTAuth\Claims\Subject;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\InvalidClaimException;
-use PHPOpenSourceSaver\JWTAuth\Factory;
-use PHPOpenSourceSaver\JWTAuth\Payload;
-use PHPOpenSourceSaver\JWTAuth\Validators\PayloadValidator;
+use UncleTioma\JWTAuth\Claims\Collection;
+use UncleTioma\JWTAuth\Claims\Custom;
+use UncleTioma\JWTAuth\Claims\Expiration;
+use UncleTioma\JWTAuth\Claims\Factory as ClaimFactory;
+use UncleTioma\JWTAuth\Claims\IssuedAt;
+use UncleTioma\JWTAuth\Claims\Issuer;
+use UncleTioma\JWTAuth\Claims\JwtId;
+use UncleTioma\JWTAuth\Claims\NotBefore;
+use UncleTioma\JWTAuth\Claims\Subject;
+use UncleTioma\JWTAuth\Exceptions\InvalidClaimException;
+use UncleTioma\JWTAuth\Factory;
+use UncleTioma\JWTAuth\Payload;
+use UncleTioma\JWTAuth\Validators\PayloadValidator;
 
 class FactoryTest extends AbstractTestCase
 {

@@ -19,7 +19,7 @@ composer require php-open-source-saver/jwt-auth
 
     ...
 
-    PHPOpenSourceSaver\JWTAuth\Providers\LaravelServiceProvider::class,
+    UncleTioma\JWTAuth\Providers\LaravelServiceProvider::class,
 ]
 ```
 
@@ -30,7 +30,7 @@ composer require php-open-source-saver/jwt-auth
 قم بتنفيذ الايعاز التالي لنقل الاعدادات من مجلد المشروع الى مجلد ملفات الاعدادات:
 
 ```bash
-php artisan vendor:publish --provider="PHPOpenSourceSaver\JWTAuth\Providers\LaravelServiceProvider"
+php artisan vendor:publish --provider="UncleTioma\JWTAuth\Providers\LaravelServiceProvider"
 ```
 
 الان الملف موجود في `config/jwt.php` لتغيير اعدادات البكج.

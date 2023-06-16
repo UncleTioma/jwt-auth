@@ -10,34 +10,34 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Providers;
+namespace UncleTioma\JWTAuth\Providers;
 
 use Illuminate\Contracts\Foundation\Application;
 use Illuminate\Support\ServiceProvider;
 use Namshi\JOSE\JWS;
-use PHPOpenSourceSaver\JWTAuth\Blacklist;
-use PHPOpenSourceSaver\JWTAuth\Claims\Factory as ClaimFactory;
-use PHPOpenSourceSaver\JWTAuth\Console\JWTGenerateCertCommand;
-use PHPOpenSourceSaver\JWTAuth\Console\JWTGenerateSecretCommand;
-use PHPOpenSourceSaver\JWTAuth\Contracts\Providers\Auth;
-use PHPOpenSourceSaver\JWTAuth\Contracts\Providers\JWT as JWTContract;
-use PHPOpenSourceSaver\JWTAuth\Contracts\Providers\Storage;
-use PHPOpenSourceSaver\JWTAuth\Factory;
-use PHPOpenSourceSaver\JWTAuth\Http\Middleware\Authenticate;
-use PHPOpenSourceSaver\JWTAuth\Http\Middleware\AuthenticateAndRenew;
-use PHPOpenSourceSaver\JWTAuth\Http\Middleware\Check;
-use PHPOpenSourceSaver\JWTAuth\Http\Middleware\RefreshToken;
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\AuthHeaders;
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\InputSource;
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\Parser;
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\QueryString;
-use PHPOpenSourceSaver\JWTAuth\JWT;
-use PHPOpenSourceSaver\JWTAuth\JWTAuth;
-use PHPOpenSourceSaver\JWTAuth\JWTGuard;
-use PHPOpenSourceSaver\JWTAuth\Manager;
-use PHPOpenSourceSaver\JWTAuth\Providers\JWT\Lcobucci;
-use PHPOpenSourceSaver\JWTAuth\Providers\JWT\Namshi;
-use PHPOpenSourceSaver\JWTAuth\Validators\PayloadValidator;
+use UncleTioma\JWTAuth\Blacklist;
+use UncleTioma\JWTAuth\Claims\Factory as ClaimFactory;
+use UncleTioma\JWTAuth\Console\JWTGenerateCertCommand;
+use UncleTioma\JWTAuth\Console\JWTGenerateSecretCommand;
+use UncleTioma\JWTAuth\Contracts\Providers\Auth;
+use UncleTioma\JWTAuth\Contracts\Providers\JWT as JWTContract;
+use UncleTioma\JWTAuth\Contracts\Providers\Storage;
+use UncleTioma\JWTAuth\Factory;
+use UncleTioma\JWTAuth\Http\Middleware\Authenticate;
+use UncleTioma\JWTAuth\Http\Middleware\AuthenticateAndRenew;
+use UncleTioma\JWTAuth\Http\Middleware\Check;
+use UncleTioma\JWTAuth\Http\Middleware\RefreshToken;
+use UncleTioma\JWTAuth\Http\Parser\AuthHeaders;
+use UncleTioma\JWTAuth\Http\Parser\InputSource;
+use UncleTioma\JWTAuth\Http\Parser\Parser;
+use UncleTioma\JWTAuth\Http\Parser\QueryString;
+use UncleTioma\JWTAuth\JWT;
+use UncleTioma\JWTAuth\JWTAuth;
+use UncleTioma\JWTAuth\JWTGuard;
+use UncleTioma\JWTAuth\Manager;
+use UncleTioma\JWTAuth\Providers\JWT\Lcobucci;
+use UncleTioma\JWTAuth\Providers\JWT\Namshi;
+use UncleTioma\JWTAuth\Validators\PayloadValidator;
 
 abstract class AbstractServiceProvider extends ServiceProvider
 {

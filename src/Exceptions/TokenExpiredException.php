@@ -10,7 +10,7 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Exceptions;
+namespace UncleTioma\JWTAuth\Exceptions;
 
 class TokenExpiredException extends JWTException
 {

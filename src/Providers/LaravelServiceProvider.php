@@ -10,16 +10,16 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Providers;
+namespace UncleTioma\JWTAuth\Providers;
 
 use Laravel\Octane\Events\RequestReceived;
 use Laravel\Octane\Events\TaskReceived;
 use Laravel\Octane\Events\TickReceived;
-use PHPOpenSourceSaver\JWTAuth\Facades\JWTAuth;
-use PHPOpenSourceSaver\JWTAuth\Facades\JWTFactory;
-use PHPOpenSourceSaver\JWTAuth\Facades\JWTProvider;
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\Cookies;
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\RouteParams;
+use UncleTioma\JWTAuth\Facades\JWTAuth;
+use UncleTioma\JWTAuth\Facades\JWTFactory;
+use UncleTioma\JWTAuth\Facades\JWTProvider;
+use UncleTioma\JWTAuth\Http\Parser\Cookies;
+use UncleTioma\JWTAuth\Http\Parser\RouteParams;
 
 class LaravelServiceProvider extends AbstractServiceProvider
 {

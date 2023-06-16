@@ -10,11 +10,11 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Validators;
+namespace UncleTioma\JWTAuth\Validators;
 
-use PHPOpenSourceSaver\JWTAuth\Contracts\Validator as ValidatorContract;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\JWTException;
-use PHPOpenSourceSaver\JWTAuth\Support\RefreshFlow;
+use UncleTioma\JWTAuth\Contracts\Validator as ValidatorContract;
+use UncleTioma\JWTAuth\Exceptions\JWTException;
+use UncleTioma\JWTAuth\Support\RefreshFlow;
 
 abstract class Validator implements ValidatorContract
 {

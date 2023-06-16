@@ -10,13 +10,13 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Claims;
+namespace UncleTioma\JWTAuth\Claims;
 
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Contracts\Support\Jsonable;
 use JsonSerializable;
-use PHPOpenSourceSaver\JWTAuth\Contracts\Claim as ClaimContract;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\InvalidClaimException;
+use UncleTioma\JWTAuth\Contracts\Claim as ClaimContract;
+use UncleTioma\JWTAuth\Exceptions\InvalidClaimException;
 
 abstract class Claim implements Arrayable, ClaimContract, Jsonable, JsonSerializable
 {

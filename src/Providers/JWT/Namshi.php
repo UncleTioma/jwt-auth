@@ -10,15 +10,15 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Providers\JWT;
+namespace UncleTioma\JWTAuth\Providers\JWT;
 
 use Exception;
 use InvalidArgumentException;
 use Namshi\JOSE\JWS;
 use Namshi\JOSE\Signer\OpenSSL\PublicKey;
-use PHPOpenSourceSaver\JWTAuth\Contracts\Providers\JWT;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\JWTException;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\TokenInvalidException;
+use UncleTioma\JWTAuth\Contracts\Providers\JWT;
+use UncleTioma\JWTAuth\Exceptions\JWTException;
+use UncleTioma\JWTAuth\Exceptions\TokenInvalidException;
 use ReflectionClass;
 use ReflectionException;
 

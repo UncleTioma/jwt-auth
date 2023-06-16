@@ -10,12 +10,12 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Test\Claims;
+namespace UncleTioma\JWTAuth\Test\Claims;
 
 use Illuminate\Contracts\Support\Arrayable;
-use PHPOpenSourceSaver\JWTAuth\Claims\Expiration;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\InvalidClaimException;
-use PHPOpenSourceSaver\JWTAuth\Test\AbstractTestCase;
+use UncleTioma\JWTAuth\Claims\Expiration;
+use UncleTioma\JWTAuth\Exceptions\InvalidClaimException;
+use UncleTioma\JWTAuth\Test\AbstractTestCase;
 
 class ClaimTest extends AbstractTestCase
 {

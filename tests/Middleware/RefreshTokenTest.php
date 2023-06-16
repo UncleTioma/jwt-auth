@@ -10,13 +10,13 @@
  * file that was distributed with this source code.
  */
 
-namespace PHPOpenSourceSaver\JWTAuth\Test\Middleware;
+namespace UncleTioma\JWTAuth\Test\Middleware;
 
 use Illuminate\Http\Response;
 use Mockery;
-use PHPOpenSourceSaver\JWTAuth\Exceptions\TokenInvalidException;
-use PHPOpenSourceSaver\JWTAuth\Http\Middleware\RefreshToken;
-use PHPOpenSourceSaver\JWTAuth\Http\Parser\Parser;
+use UncleTioma\JWTAuth\Exceptions\TokenInvalidException;
+use UncleTioma\JWTAuth\Http\Middleware\RefreshToken;
+use UncleTioma\JWTAuth\Http\Parser\Parser;
 use Symfony\Component\HttpKernel\Exception\UnauthorizedHttpException;
 
 class RefreshTokenTest extends AbstractMiddlewareTest
